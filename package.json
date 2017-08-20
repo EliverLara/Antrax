@@ -1,0 +1,27 @@
+{
+  "name": "antra-x",
+  "version": "1.0.0",
+  "description": "CLI tool for updating vim pathogen stuff",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vim",
+    "plugins",
+    "pathogen",
+    "update"
+  ],
+  "repository": "https://github.com/EliverLara/Antrax.git",
+  "author": "EliverLara",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "antrax": "cli.js"
+  },
+  "dependencies": {
+    "execa": "^0.7.0",
+    "home-dir": "^1.0.0",
+    "listr": "^0.12.0"
+  }
+}
